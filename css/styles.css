@@ -1,3 +1,11 @@
+:root {
+    --black: #000;
+    --blue: #2196F3;
+    --white: #fff;
+    --grey: #757575;
+}
+
+
 .logo {
     font-family: 'Raleway';
     font-weight: 700;
@@ -5,20 +13,20 @@
     line-height: 1.2;
     letter-spacing: 0.03em;
 
-    color: #2196F3;
+    color: var(--blue);
 }
 
 
 .logo-s{
-    color: #000;
+    color: var(--black);
 }
 
 .logo-s2{
-    color: #FFF;
+    color: var(--white);
 }
 
 .navigation > li > a{
-    color: #000;
+    color: var(--black);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -27,7 +35,7 @@
 
     .navigation > li > a:hover, 
     .navigation > li >  a:focus{
-    color: #2196F3   
+    color: var(--blue)  
     }
 
 
@@ -38,22 +46,22 @@
     letter-spacing: 0.02em;
     font-style: normal;
 
-    color: #757575;
+    color: var(--grey);
     }
 
 .adress {
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;   
-    color: #FFFFFF;}
+    color: var(--white);}
 
 .contacts > li > a:hover,
 .contacts > li > a:focus {
-    color: #2196F3
+    color: var(--blue)
 }
 
 header{
-    background: #fff;
+    background: var(--white);
 }
 
 .hero{
@@ -67,15 +75,15 @@ header{
     letter-spacing: 0.06em;
     text-transform: uppercase;
 
-    color: #FFFFFF;
+    color: var(--white);
 }
 
 .button-hero {
     
-    color: #FFFFFF;
+    color: var(--white);
     width: 200px;
     height: 50px;
-    background: #2196F3;
+    background: var(--blue);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     }
@@ -91,7 +99,7 @@ header{
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
-    color: #FFFFFF;
+    color: var(--white);
 }
 
 .block2 > li > h3  {
@@ -105,7 +113,7 @@ header{
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--grey);
     
 }
 
@@ -130,7 +138,7 @@ header{
 .team-card > li > p{
     line-height: 1.2;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--grey);
 }
 
 #footer{
@@ -141,7 +149,7 @@ header{
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;   
-    color: #FFFFFF;
+    color: var(--white);
     font-style: normal;}
 
 .buttons-filter > li > button{
@@ -156,8 +164,8 @@ header{
 
 .buttons-filter > li > button:hover,
 .buttons-filter > li > button:focus{
-    color: #FFFFFF;
-    background: #2196F3;
+    color: var(--white);
+    background: var(--blue);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     
 }
@@ -176,7 +184,7 @@ a  {
 .portfolio > li > p {
     line-height: 1.8;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--grey);
 }
 
 button {
