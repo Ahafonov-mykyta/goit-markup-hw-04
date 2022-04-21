@@ -5,7 +5,9 @@
     --grey: #757575;
 }
 
-
+.navigation .active-page {
+    color: var(--blue);
+}
 .logo {
     font-family: 'Raleway';
     font-weight: 700;
