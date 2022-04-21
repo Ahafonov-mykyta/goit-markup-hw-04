@@ -1,0 +1,158 @@
+.logo {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+
+    color: #2196F3;
+}
+
+
+.logo-s{
+    color: #000;
+}
+
+.logo-s2{
+    color: #FFF;
+}
+
+.navigation > li > a{
+    color: #000;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    }
+
+    .navigation > li > a:hover{
+    color: #2196F3   
+    }
+
+
+.contacts > li > a {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    font-style: normal;
+
+    color: #757575;
+    }
+
+.adress {
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;   
+    color: #FFFFFF;}
+
+.contacts > li > a:hover {
+    color: #2196F3
+}
+
+header{
+    background: #fff;
+}
+
+.hero{
+    background: #2F303A;
+}
+
+.hero-h1{
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.button-hero {
+    
+    color: #FFFFFF;
+    width: 200px;
+    height: 50px;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    }
+
+.button-hero:hover {
+    background: #188CE8;
+}
+
+.button-text{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+}
+
+.block2 > li > h3  {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+}
+.block2 > li > p {
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #757575;
+    
+}
+
+.block-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.team {
+    background: #F5F4FA;
+}
+
+.team-card > li > h3 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.team-card > li > p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+#footer{
+    background: #2F303A;
+}
+
+.adress {
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;   
+    color: #FFFFFF;
+    font-style: normal;}
+
+a  {
+    text-decoration: none;
+}
+
+
+
+ul {
+    list-style-type:none;
+}
