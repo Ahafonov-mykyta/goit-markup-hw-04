@@ -2,7 +2,7 @@
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.2;
     letter-spacing: 0.03em;
 
     color: #2196F3;
@@ -21,11 +21,12 @@
     color: #000;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     }
 
-    .navigation > li > a:hover{
+    .navigation > li > a:hover, 
+    .navigation > li >  a:focus{
     color: #2196F3   
     }
 
@@ -33,7 +34,7 @@
 .contacts > li > a {
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     font-style: normal;
 
@@ -42,11 +43,12 @@
 
 .adress {
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.7;
     letter-spacing: 0.03em;   
     color: #FFFFFF;}
 
-.contacts > li > a:hover {
+.contacts > li > a:hover,
+.contacts > li > a:focus {
     color: #2196F3
 }
 
@@ -61,7 +63,7 @@ header{
 .hero-h1{
     font-weight: 900;
     font-size: 44px;
-    line-height: 60px;
+    line-height: 1.36;
     letter-spacing: 0.06em;
     text-transform: uppercase;
 
@@ -78,14 +80,14 @@ header{
     border-radius: 4px;
     }
 
-.button-hero:hover {
+.button-hero:hover,
+.button-hero:focus {
     background: #188CE8;
 }
 
 .button-text{
     font-weight: 700;
-    font-size: 16px;
-    line-height: 30px;
+    line-height: 1.9;
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
@@ -93,25 +95,23 @@ header{
 }
 
 .block2 > li > h3  {
-    font-weight: 700;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #212121;
 }
 .block2 > li > p {
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.7;
     letter-spacing: 0.03em;
     color: #757575;
     
 }
 
 .block-title {
-    font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1.16;
     letter-spacing: 0.03em;
     color: #212121;
 }
@@ -122,16 +122,13 @@ header{
 
 .team-card > li > h3 {
     font-weight: 500;
-    font-size: 16px;
-    line-height: 19px;
+    line-height: 1.2;
     letter-spacing: 0.03em;
     color: #212121;
 }
 
 .team-card > li > p{
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
+    line-height: 1.2;
     letter-spacing: 0.03em;
     color: #757575;
 }
@@ -142,16 +139,49 @@ header{
 
 .adress {
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.7;
     letter-spacing: 0.03em;   
     color: #FFFFFF;
     font-style: normal;}
+
+.buttons-filter > li > button{
+    font-weight: 500;
+    line-height: 1.6;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    background: #F5F4FA;
+    border-radius: 4px;
+}
+
+.buttons-filter > li > button:hover,
+.buttons-filter > li > button:focus{
+    color: #FFFFFF;
+    background: #2196F3;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    
+}
 
 a  {
     text-decoration: none;
 }
 
+.portfolio > li > a > h2{
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: #212121;
+}
 
+.portfolio > li > p {
+    line-height: 1.8;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+button {
+    cursor: pointer;
+}
 
 ul {
     list-style-type:none;
