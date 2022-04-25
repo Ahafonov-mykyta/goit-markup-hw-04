@@ -5,9 +5,13 @@
     --grey: #757575;
 }
 
-body {  font-family: 'Roboto', sans-serif; 
-    letter-spacing: 0.03em; 
-     background-color: var(--white) }
+body {
+	font-size: 14px;
+	font-family: 'Roboto', sans-serif;
+	letter-spacing: 0.03em;
+	color: var(--black);
+	background-color: var(--white);
+    }
 
 .navigation .current {
     color: var(--blue);
@@ -17,8 +21,6 @@ body {  font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
-    letter-spacing: 0.03em;
-
     color: var(--blue);
 }
 
@@ -39,7 +41,6 @@ body {  font-family: 'Roboto', sans-serif;
 .navigation > li > a{
     color: var(--black);
     font-weight: 500;
-    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     }
@@ -52,7 +53,6 @@ body {  font-family: 'Roboto', sans-serif;
 
 .contacts > li > a {
     font-weight: 500;
-    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     font-style: normal;
@@ -65,10 +65,9 @@ body {  font-family: 'Roboto', sans-serif;
 }    
 
 .adress {
-    font-size: 14px;
-    line-height: 1.7;
-    letter-spacing: 0.03em;   
-    color: var(--white);}
+    line-height: 1.7; 
+    color: var(--white);
+}
 
 .contacts > li > a:hover,
 .contacts > li > a:focus {
@@ -110,6 +109,7 @@ header{
 
 .button-text{
     font-weight: 700;
+    font-size: 16px;
     line-height: 1.9;
     align-items: center;
     text-align: center;
@@ -118,16 +118,12 @@ header{
 }
 
 .block2 > li > h3  {
-    font-size: 14px;
     line-height: 1.14;
-    letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #212121;
 }
 .block2 > li > p {
-    font-size: 14px;
     line-height: 1.7;
-    letter-spacing: 0.03em;
     color: var(--grey);
     
 }
@@ -135,7 +131,6 @@ header{
 .section-title {
     font-size: 36px;
     line-height: 1.16;
-    letter-spacing: 0.03em;
     color: #212121;
 }
 
@@ -150,15 +145,15 @@ header{
 }
 
 .team-card > li > h3 {
+    font-size: 16px;
     font-weight: 500;
     line-height: 1.2;
-    letter-spacing: 0.03em;
     color: #212121;
 }
 
 .team-card > li > p{
+    font-size: 16px;
     line-height: 1.2;
-    letter-spacing: 0.03em;
     color: var(--grey);
 }
 
@@ -167,17 +162,15 @@ header{
 }
 
 .adress {
-    font-size: 14px;
-    line-height: 1.7;
-    letter-spacing: 0.03em;   
+    line-height: 1.7;  
     color: var(--white);
     font-style: normal;}
 
 .buttons-filter > li > button{
+    font-size: 16px;
     font-weight: 500;
     line-height: 1.6;
     text-align: center;
-    letter-spacing: 0.03em;
     color: #212121;
     background: #F5F4FA;
     border-radius: 4px;
@@ -203,8 +196,8 @@ a  {
 }
 
 .portfolio > li > p {
+    font-size: 16px;
     line-height: 1.8;
-    letter-spacing: 0.03em;
     color: var(--grey);
 }
 
