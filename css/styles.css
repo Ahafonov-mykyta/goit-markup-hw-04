@@ -7,6 +7,7 @@
     --secondry-font: 'Verdana', sans-serif;
 }
 
+
 body {
 	font-size: 14px;
 	font-family: 'Roboto', sans-serif;
@@ -16,11 +17,23 @@ body {
     margin: 0;
     }
 
+    button {
+        cursor: pointer;
+    }
+    
+    ul {
+        list-style-type:none;
+    }
     h1,h2,h3,h4,h5,h6,p,ul{
         margin: 0;
         padding: 0;
+    
     }
-
+    a  {
+        text-decoration: none;
+        padding-left: 0;
+        margin: 0;
+    }
     .container{
         width: 1200px;
         padding-left: 15px;
@@ -31,6 +44,11 @@ body {
         
     }
 
+img{
+    display: block;
+    margin: 0;
+    padding: 0;
+}
 .navigation .current {
     color: var(--blue);
 }
@@ -115,10 +133,7 @@ margin-right: 50px;
 
     color: var(--grey);
     }
-
-.contacts .contacts-footer{
-    color: rgba(255, 255, 255, 0.6);
-}    
+ 
 
 .adress {
     line-height: 1.7; 
@@ -138,6 +153,9 @@ header{
 .section{
     padding-top: 94px;
     padding-bottom: 94px;
+}
+.section:nth-child(3){
+    padding-top: 0px; 
 }
 
 .hero{
@@ -166,7 +184,9 @@ header{
     border:none;
     margin-left: auto;
     margin-right: auto;
-    
+    padding: 10px 32px;
+    white-space: nowrap;
+
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     font-family: 'Roboto', sans-serif;
@@ -177,6 +197,8 @@ header{
     text-align: center;
     letter-spacing: 0.06em;
     color: var(--white);
+
+
     }
 
 .button-hero:hover,
@@ -184,28 +206,48 @@ header{
     background: #188CE8;
 }
 
+/* Преимущества */
+.benefits{
+    display: flex;
+    justify-content: space-around;
+}
 
-.block2 > li > h3  {
+
+.benefits > li > h3  {
     font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
     color: #212121;
+    margin-bottom: 10px;
+    width: 270px;
 }
-.block2 > li > p {
+.benefits > li > p {
     line-height: 1.7;
     color: var(--grey);
-    
+    width: 270px;
 }
 
+/*_--------------------------------- О НАС----------------------------------------------- */
 .section-title {
     font-size: 36px;
     line-height: 1.16;
     color: #212121;
     text-align: center;
+    margin-bottom: 50px;
 }
 
+.about{
+    display: flex;
+    justify-content: space-around;
+}
+
+/*-----------------------КОМАНДА----------------------- */
 .team {
     background: #F5F4FA;
+}
+.team-card{
+    display: flex;
+    justify-content: space-around;
 }
 
 .team-card > li {
@@ -219,24 +261,62 @@ header{
     font-weight: 500;
     line-height: 1.2;
     color: #212121;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
 }
+
 
 .team-card > li > p{
     font-size: 16px;
     line-height: 1.2;
     color: var(--grey);
+    text-align: center;
+    margin-bottom: 30px;
 }
 
+/* -----------------------------ФУТЕР--------------------------- */
 #footer{
     background: #2F303A;
 }
 
+#footer .contacts{
+    display: block;
+}
+
 .adress {
+    font-weight: 400;
     line-height: 1.7;  
     color: var(--white);
+    letter-spacing: 0.03em;
     font-style: normal;}
 
+#footer .logo{
+    margin-bottom: 20px;
+} 
+.footer-list > li> a{
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 400;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    font-style: normal;
+    margin-bottom: 9px;
+
+    display: block;
+}
+
+
+.footer-list li:last-child a{
+    margin-bottom: 0;
+}
+
+.footer-section{
+    padding-top: 60px;
+padding-bottom: 60px;
+}
+
 .buttons-filter > li > button{
+    font-family: inherit;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.6;
@@ -245,7 +325,14 @@ header{
     background: #F5F4FA;
     border-radius: 4px;
     border: none;
+    margin-right: 8px;
+    margin-bottom: 56px;
+    padding: 6px 22px;
     
+    
+}
+.buttons-filter li:last-child button{
+    margin-right: 0;
 }
 
 .buttons-filter > li > button:hover,
@@ -256,8 +343,10 @@ header{
     
 }
 
-a  {
-    text-decoration: none;
+.buttons-filter{
+    display: flex;
+    justify-content: center;
+
 }
 
 .portfolio > li > a > h2{
@@ -265,18 +354,22 @@ a  {
     line-height: 2;
     letter-spacing: 0.06em;
     color: #212121;
+    margin: 20px 24px 4px 24px;
 }
 
 .portfolio > li > p {
     font-size: 16px;
     line-height: 1.8;
     color: var(--grey);
-}
+    margin: 0 24px 20px 24px;
 
-button {
-    cursor: pointer;
 }
-
-ul {
-    list-style-type:none;
+.portfolio > li{
+    border: 1px solid #EEEEEE;
+}
+.portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
 }
