@@ -297,17 +297,21 @@ header{
 } 
 .footer-list > li> a{
     color: rgba(255, 255, 255, 0.6);
+    font-size: 14px;
     font-weight: 400;
-    line-height: 1.7;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     font-style: normal;
-    margin-bottom: 9px;
-
     display: block;
 }
 
+.footer-list > li{
+    margin-bottom: 9px;
+    
+    
+}
 
-.footer-list li:last-child a{
+.footer-list li:last-child{
     margin-bottom: 0;
 }
 
